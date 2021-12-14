@@ -17,7 +17,7 @@ The program was used for the the following publications:
 
 Instructions
 -------
-A detailled workflow is provided in the supplemantary of the manuscript.
+A detailled workflow is provided in the supplemantary of the publication.
 
 Short workflow:
 1) Localization of single molecules by ThunderSTORM (tested) or rapidSTORM (tested). Other file formats may work but need to be converted individually. 
