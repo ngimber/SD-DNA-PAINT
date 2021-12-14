@@ -1,7 +1,7 @@
 SD-DNA-PAINT
 ==========
 
-DNA-PAINT (DNA point accumulation for imaging in nanoscale topography) is a powerful single-molecule localization microscopy technique with an image precision below 5 nm. We recently develloped the multicolor approach spectral demixinge (SD)-DNA-PAINT that is based on spectrally overlapping fluorophores that are excited by a single laser line and a simple dichroic-based emission splitter to image short and long wavelength components of the emission on two sides of the same camera [1]. In order to use the emission from both channels we develloped an very precisse intensity-weighted multichannel registration procedure based on the intrinsic localization pairs.
+DNA-PAINT (DNA point accumulation for imaging in nanoscale topography) is a powerful single-molecule localization microscopy technique with an image precision below 5 nm. We recently develloped the multicolor approach spectral demixinge (SD)-DNA-PAINT that is based on spectrally overlapping fluorophores that are excited by a single laser line and a simple dichroic-based emission splitter to image short and long wavelength components of the emission on two sides of the same camera [1]. In order to use the emission from both channels we develloped an very precisse intensity-weighted multichannel registration procedure based on the intrinsic localization pairs. This method significantly increases the resolution from SD-DNA-PAINT and other spectral demixing aproaches (SD-dSTORM [5]).
 
 The included Python script performs the intensity-weighted multichannel registration procedure as decribed in Gimber et al. 2021 [1]:
   - Correction of chromatic errors
@@ -42,4 +42,6 @@ References
 [3] Ovesny, M., et al., ThunderSTORM: a comprehensive ImageJ plug-in for PALM and STORM data analysis and super-resolution imaging. Bioinformatics, 2014. 30(16): p. 2389-90. 
 
 [4] Wolter et al., rapidSTORM: accurate, fast open-source software for localization microscopy. Nature Methods  9, 1040–1041 (2012). https://doi.org/10.1038/nmeth.2224
+
+[5] Lampe A, et al., Multi-color direct STORM with red emitting carbocyanines (2012), Biology of the Cell 104(4): 229-237.
 
