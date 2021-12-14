@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ConfigFile name="sdmixer" version="2.08">
+ <field name="GeneralSettings">
+  <value name="OutputDirectory" string=""/>
+  <value name="pixelSizeNM" number="73"/>
+  <value name="runPairFinder" number="1"/>
+  <value name="runFilter" number="1"/>
+  <value name="runReconstructor" number="0"/>
+  <value name="force2D" number="1"/>
+ </field>
+ <field name="PairFinderSettings">
+  <field name="Offset">
+   <value name="x" number="590" unit="nm"/>
+   <value name="y" number="28380" unit="nm"/>
+   <value name="z" number="0" unit="nm"/>
+  </field>
+  <field name="Epsilon">
+   <value name="x" number="150" unit="nm"/>
+   <value name="y" number="150" unit="nm"/>
+   <value name="z" number="0" unit="nm"/>
+  </field>
+  <value name="CameraOrientation" string="Top-Bottom"/>
+  <value name="ShortChannelPosition" string="Top"/>
+  <field name="Auto-OffsetSettings">
+   <value name="run" number="1"/>
+   <value name="increment" number="0.3"/>
+   <value name="unit" string="px"/>
+   <value name="range" number="10"/>
+   <value name="subset" number="600"/>
+  </field>
+  <value name="runGrouping" number="1"/>
+  <value name="groupingRadius" number="3"/>
+  <value name="groupingUnits" string="px"/>
+ </field>
+ <field name="FilterSettings">
+  <FilterFiles>
+   <FilterFile path="Z:/Analysis/maskset_fastSD/ch3_mask700_tripple_final.png"/>
+   <FilterFile path="Z:/Analysis/maskset_fastSD/ch4_mask680_tripple_final.png"/>
+   <FilterFile path="Z:/Analysis/maskset_fastSD/ch5_mask655_tripple_final.png"/>
+  </FilterFiles>
+  <value name="maxIntShort" number="60000"/>
+  <value name="maxIntLong" number="60000"/>
+  <value name="precision" number="0.1"/>
+  <value name="FilterOrientation" string="x=Short, y=Long"/>
+  <value name="plotIntensitySpace" number="1"/>
+ </field>
+</ConfigFile>
