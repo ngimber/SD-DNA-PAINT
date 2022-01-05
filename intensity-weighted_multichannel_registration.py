@@ -112,7 +112,7 @@ def getParameters():
 
 
 
-    v = StringVar()
+    v = IntVar()
     v.set(True)
 
     Checkbutton(master, variable=v).grid(row=1, column=2, sticky=W)
@@ -513,10 +513,12 @@ for i in range (0,len(files)):
 
 
     if(doOverlay==True):
-        table=pd.read_table(newPath+files[i][:files[i].find(".txt")]+"_corr.txt",header=None, skiprows=1,sep=" ")
+
         if (doCorrection==True):
+            table=pd.read_table(newPath+files[i][:files[i].find(".txt")]+"_corr.txt",header=None, skiprows=1,sep=" ")
             newPath=newPath+reconstructionChannel+"\\"
         else:
+            table=pd.read_table(path+files[i],header=None, skiprows=1,sep=" ")
             newPath=path+reconstructionChannel+"\\"
 
         if (os.path.exists(newPath)==False):
