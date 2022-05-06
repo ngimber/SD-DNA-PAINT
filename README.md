@@ -23,8 +23,8 @@ Short workflow:
 1) Localization of single molecules by ThunderSTORM (tested) or rapidSTORM (tested). Other file formats may work but need to be converted individually. 
 2) Pairing and filtering of the localizations:  It is recommended to used the SD-Mixer2 from Georgi Tadeus for pairing and color-filtering of the localizations: https://github.com/gtadeus/sdmixer2/wiki. SD Mixer2 requires the rapidSTORM file format but localization tables can also be converted from the ThunderSTORM .csv file format via: https://github.com/ngimber/Converter_ThunderSTORM_SDmixer. 
 3) Intensity-weighted multichannel registration procedure can be run on the 'filter_out.txt' files from SD Mixer2. 
-   Python version: https://github.com/ngimber/SD-DNA-PAINT/blob/main/intensity-weighted_multichannel_registration.py 
-   Prebuilt version for windows: https://github.com/ngimber/SD-DNA-PAINT/tree/main/intensity-weighted_multichannel_registrationv1.0.2_Win-64bit   
+   -Python version: https://github.com/ngimber/SD-DNA-PAINT/blob/main/intensity-weighted_multichannel_registration.py 
+   -Prebuilt version for windows: https://github.com/ngimber/SD-DNA-PAINT/tree/main/intensity-weighted_multichannel_registrationv1.0.2_Win-64bit   
    Users can chose the following parameters:
       - Bin Size: Defines the accuraccy of the correction matrix. Values between 1 and 10 nm work well for medium (10 nm) to dense (1 nm) structures.   
       - "1: Weighted both channels by intensity" was used in the publication, but other methods can be chosen as well:
