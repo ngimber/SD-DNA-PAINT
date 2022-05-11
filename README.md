@@ -38,7 +38,7 @@ Short workflow:
 
 References
 -------
-[1] Gimber, N., et al., Simultaneous multicolor DNA-PAINT without sequential fluid exchange using spectral demixing. biRxiv, 2021. https://doi.org/10.1101/2021.11.19.469218
+[1] Gimber, N., et al., Simultaneous multicolor DNA-PAINT without sequential fluid exchange using spectral demixing. Nano Letters, 2022. https://doi.org/10.1021/acs.nanolett.1c04520
 
 [2] Tadeus, G., et al SDmixer—a versatile software tool for spectral demixing of multicolor single molecule localization data., 2015 Methods Appl. Fluoresc. 3 037001
 
